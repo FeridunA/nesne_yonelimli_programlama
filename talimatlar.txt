@@ -1,0 +1,57 @@
+Proje Açıklaması
+Bu proje, basit bir envanter yönetim sistemi sağlamaktadır. Python programlama dilinde yazılmıştır ve tkinter kütüphanesi kullanılarak grafiksel kullanıcı arayüzü (GUI) oluşturulmuştur. Kullanıcılar, ürün ekleyebilir, çıkarabilir, güncelleyebilir ve mevcut envanteri görüntüleyebilirler.
+
+Özellikler
+Ürün Ekleme: Kullanıcı, envanterine yeni ürünler ekleyebilir.
+Ürün Çıkarma: Mevcut ürünleri envanterden çıkarabilir.
+Ürün Güncelleme:var olan ürünlerin miktarını güncelleyebilir.
+Envanteri Görüntüleme: Kullanıcı, mevcut envanterdeki tüm ürünleri ve miktarlarını görüntüleyebilir.
+Sistem Tasarımı
+Kullanılan Teknolojiler
+Dil: Python
+Kütüphane: tkinter (GUI oluşturmak için)
+Sınıflar
+Inventory: 
+
+Ürünleri saklamak için bir sözlük içerir.
+Ürün ekleme, çıkarma, güncelleme ve görüntüleme yöntemlerine sahiptir.
+App:
+
+GUI arayüzünü oluşturur.
+Kullanıcı etkileşimini yönetir, butonları ve giriş alanlarını içerir.
+Kurulum Talimatları
+Gereksinimleri Yükleyin:
+Python'un sisteminizde yüklü olduğundan emin olun. Python'u buradan indirebilirsiniz.
+
+Kodu İndirin:
+Projeyi GitHub veya başka bir kaynak üzerinden indirin veya doğrudan kodu kopyalayın.
+
+Dosyayı Kaydedin:
+Kodu bir Python dosyasına yapıştırın ve dosyanın adını envanter_gui.py gibi bir isimle kaydedin.
+
+Python Dosyasını Çalıştırın:
+Terminal veya komut istemcisinde dosyanın bulunduğu dizine gidin ve aşağıdaki komutu çalıştırın:
+
+python envanter_gui.py
+Kullanım Talimatları
+Programı Başlatın:
+envanter_gui.py dosyasını çalıştırarak programı başlatın.
+
+Ürün Ekle:
+
+"Ürün Adı" alanına eklemek istediğiniz ürünün adını yazın.
+"Miktar" alanına eklemek istediğiniz miktarı yazın.
+"Ürün Ekle" butonuna tıklayarak ürünü envanterinize ekleyin.
+Ürün Çıkar:
+
+"Ürün Adı" alanına çıkarmak istediğiniz ürünün adını yazın.
+"Miktar" alanına çıkarmak istediğiniz miktarı yazın.
+"Ürün Çıkar" butonuna tıklayarak ürünü envanterinizden çıkarın.
+Ürün Güncelle:
+
+"Ürün Adı" alanına güncellemek istediğiniz ürünün adını yazın.
+"Miktar" alanına yeni miktarı yazın.
+"Ürünü Güncelle" butonuna tıklayarak ürünü güncelleyin.
+Envanteri Görüntüle:
+
+"Envanteri Görüntüle" butonuna tıklandığında, mevcut envanterdeki tüm ürünlerin isimleri ve miktarları görüntülenecektir.
